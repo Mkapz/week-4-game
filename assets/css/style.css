@@ -1,3 +1,84 @@
+body {
+	background:url("../images/zg.jpg");
+}
+
 audio {
 	display:none;
+
+}
+
+div {
+	background-color: transparent;
+	margin: 10px;
+	width:25%;
+	border: solid 2px white;
+	padding: 10px;
+	border-color: transparent;
+}
+
+h1, h3, span {
+	font-weight: bold;
+	text-align-: center;
+}
+
+h1 {
+	font-size: 30pt;
+}
+
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+div.GameTitle, div.crystals{
+	background-color: transparent;
+}
+
+div.GameTitle, div.instructions {
+	width: 50%;
+}
+h1, {
+	font-family: fantasy,'Georgia', Times, Times New Roman, serif;
+	font-weight: 700;
+	color: black;
+}
+
+h1 {
+	font-size: 70px;
+	line-height: 49px;
+}
+
+h3, h2 {
+	font-size: 22px;
+}
+
+.numberToMatch, .winsAndloses {
+	float:left;
+	width: 15%;
+	height: 60px;
+}
+
+.userTotal {
+	width: 15%;
+	height:60px;
+}
+
+.crystals {
+	clear:both;
+}
+
+.cryImage {
+	height: 99px;
+	margin: 10px;
+}
+
+@media screen and (max-width: 980px) {
+}
+
+
+@media screen and (max-width: 768px) {
+}
+  
+@media screen and (max-width: 640px) {
+
 }

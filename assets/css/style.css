@@ -52,6 +52,10 @@ h3, h2 {
 	font-size: 22px;
 }
 
+p {
+	font-family: fantasy,'Georgia', Times, Times New Roman, serif;
+}
+
 .numberToMatch, .winsAndloses {
 	float:left;
 	width: 15%;
@@ -75,8 +79,8 @@ h3, h2 {
 @media screen and (max-width: 980px) {
 }
 
-
 @media screen and (max-width: 768px) {
+
 }
   
 @media screen and (max-width: 640px) {

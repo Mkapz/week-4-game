@@ -5,9 +5,9 @@ var math=0;
 var number= Math.floor((Math.random()* 100)+ 19);
 
 var blue = Math.floor((Math.random()* 12) + 1);
-var red = Math.floor((Math.random()* 12) + 1);
-var yellow = Math.floor((Math.random()* 12) + 1);
-var green = Math.floor((Math.random()* 12) + 1);
+var red = Math.floor((Math.random()* 12) + 2);
+var yellow = Math.floor((Math.random()* 12) + 4);
+var green = Math.floor((Math.random()* 12) + 6);
 
 var configmath = function() {
 	$('#wins').empty();
@@ -26,9 +26,9 @@ var reset = function(){
 	$('#randomNumber').empty();
 	$('#randomNumber').append(number);
 
-	blue = Math.floor((Math.random()* 12) + 1);
-    red = Math.floor((Math.random()* 12) + 1);
-    yellow = Math.floor((Math.random()* 12) + 1);
+	blue = Math.floor((Math.random()* 12) + 6);
+    red = Math.floor((Math.random()* 12) + 4);
+    yellow = Math.floor((Math.random()* 12) + 2);
     green = Math.floor((Math.random()* 12) + 1);
     configmath();
 }
@@ -51,11 +51,11 @@ var config = function (){
 
 	$(document).ready(function(){
 	$('#blue').click(function(){
-		math = math + red;
+		math = math + blue;
 		config();
 	})
 	$('#red').click(function(){
-		math  = math  + blue;
+		math  = math  + red;
 		config();
 	})
 	$('#yellow').click(function(){
@@ -66,5 +66,6 @@ var config = function (){
 		math  = math  + green;
 		config();
 	})
-});
+
+	});
 
